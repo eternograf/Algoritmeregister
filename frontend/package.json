@@ -27,7 +27,7 @@
     "sass": "^1.64.1",
     "vite-plugin-vuetify": "^1.0.2",
     "vitest": "^0.33.0",
-    "vue-i18n": "9.8.0",
+    "vue-i18n": "9.14.5",
     "vue-matomo": "^4.2.0",
     "vuetify": "^3.3.9"
   },
