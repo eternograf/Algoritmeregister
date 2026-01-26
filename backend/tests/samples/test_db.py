@@ -15,5 +15,5 @@ def test_alembic():
     db = next(get_db())
     try:
         db.query(models.Algoritme).all()
-    except Exception:
-        assert False
+    except Exception as e:
+        assert False, f"Failed to query Algoritme model. Alembic may not have initialized tables properly: {e}"
