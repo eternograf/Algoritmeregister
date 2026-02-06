@@ -1,5 +1,5 @@
 # Run this Dockerfile from the parent directory
-FROM python:3.11.3-slim
+FROM python:3.14.3-slim
 
 ENV YOUR_ENV=production \
   PYTHONFAULTHANDLER=1 \
